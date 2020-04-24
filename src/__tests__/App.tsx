@@ -210,8 +210,8 @@ describe('Dashboard', () => {
       ],
       'import.csv',
       {
-        type: 'application/vnd.ms-excel', // Windows
-        // type: 'text/csv', //Linux/Mac
+        // type: 'application/vnd.ms-excel', // Windows
+        type: 'text/csv', // Linux/Mac
       },
     );
 
